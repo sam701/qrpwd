@@ -1,5 +1,5 @@
 hash: 35a2d165e29c059dcc39b456560b1900b0d4c5dcd3d4a1a8b0c7c0951a591766
-updated: 2016-12-31T15:48:40.052779769+01:00
+updated: 2016-12-31T16:29:35.030224641+01:00
 imports:
 - name: github.com/howeyc/gopass
   version: f5387c492211eb133053880d23dfae62aa14123d
@@ -11,4 +11,12 @@ imports:
   - gf256
   - qr
   - qr/coding
+- name: golang.org/x/crypto
+  version: ede567c8e044a5913dad1d1af3696d9da953104c
+  subpackages:
+  - ssh/terminal
+- name: golang.org/x/sys
+  version: 30237cf4eefd639b184d1f2cb77a581ea0be8947
+  subpackages:
+  - unix
 testImports: []
