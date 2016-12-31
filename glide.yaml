@@ -1,0 +1,8 @@
+package: github.com/sam701/qrpwd
+import:
+- package: github.com/mdp/qrterminal
+  version: ^0.1.1
+- package: github.com/mdp/rsc
+  subpackages:
+  - qr
+- package: github.com/howeyc/gopass

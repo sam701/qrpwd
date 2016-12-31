@@ -1,0 +1,14 @@
+hash: 35a2d165e29c059dcc39b456560b1900b0d4c5dcd3d4a1a8b0c7c0951a591766
+updated: 2016-12-31T15:48:40.052779769+01:00
+imports:
+- name: github.com/howeyc/gopass
+  version: f5387c492211eb133053880d23dfae62aa14123d
+- name: github.com/mdp/qrterminal
+  version: 39c97d9923c8839fed476cd8647718a92af5fa2f
+- name: github.com/mdp/rsc
+  version: 90f07065088deccf50b28eb37c93dad3078c0f3c
+  subpackages:
+  - gf256
+  - qr
+  - qr/coding
+testImports: []
