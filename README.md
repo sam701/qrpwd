@@ -8,4 +8,4 @@ Now you can scan the created QR code, copy the content to clipboard and paste it
 ![usage](/doc/usage.png)
 
 ## License
-MIT
+[MIT](LICENSE)
