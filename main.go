@@ -4,7 +4,6 @@ import (
 	"fmt"
 	"log"
 	"os"
-	"strings"
 
 	"github.com/howeyc/gopass"
 	"github.com/mdp/qrterminal"
@@ -18,7 +17,5 @@ func main() {
 	if err != nil {
 		log.Fatalln("ERROR", err)
 	}
-	pass := strings.TrimSpace(string(passb))
-
-	qrterminal.Generate(pass, qr.H, os.Stdout)
+	qrterminal.Generate(string(passb), qr.H, os.Stdout)
 }
