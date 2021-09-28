@@ -1,0 +1,10 @@
+github.com/howeyc/gopass v0.0.0-20161003130900-f5387c492211 h1:IDxI/EaCdmlyCtkiwK0hqqN4Wp+QAP5nFZGAj7w7nWY=
+github.com/howeyc/gopass v0.0.0-20161003130900-f5387c492211/go.mod h1:lADxMC39cJJqL93Duh1xhAs4I2Zs8mKS89XWXFGp9cs=
+github.com/mdp/qrterminal v0.1.1 h1:73MMZ1FEMZq60IUyocfBSjPIwfKNXAfdG2wZltZHJNE=
+github.com/mdp/qrterminal v0.1.1/go.mod h1:JHFxKzeFy8lXGu3bkkAZ4EwpmxWtm2laIs1MVvWoBt0=
+github.com/mdp/rsc v0.0.0-20160131164516-90f07065088d h1:j7DAJd/z/JtaXjFtlrLV8NHflBsg1rkrTqAJNLqMWBE=
+github.com/mdp/rsc v0.0.0-20160131164516-90f07065088d/go.mod h1:fIxvRMy+xQMcJGz9JAV25fJOKMRF1VQY/P8Mrni5XJA=
+golang.org/x/crypto v0.0.0-20161122142712-ede567c8e044 h1:Y9XVmhDScJq6IYvBArLzE+WUYD+6DbkXWTLHb/JSH88=
+golang.org/x/crypto v0.0.0-20161122142712-ede567c8e044/go.mod h1:6SG95UA2DQfeDnfUPMdvaQW0Q7yPrPDi9nlGo2tz2b4=
+golang.org/x/sys v0.0.0-20161122214834-30237cf4eefd h1:+NpmjbOwKk60ZOcrLw/zrhwc0fIJzIA1NWLqmEpxrvU=
+golang.org/x/sys v0.0.0-20161122214834-30237cf4eefd/go.mod h1:STP8DvDyc/dI5b8T5hshtkjS+E42TnysNCUPdjciGhY=
