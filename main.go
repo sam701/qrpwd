@@ -2,13 +2,20 @@ package main
 
 import (
 	"fmt"
-	"log"
-	"os"
-
 	"github.com/howeyc/gopass"
 	"github.com/mdp/qrterminal"
 	"github.com/mdp/rsc/qr"
+	"log"
+	"os"
 )
+
+func trimEscaped(bb []byte) []byte {
+	startIx := 0
+	for bb[startIx] == 27 {
+		startIx += 3
+	}
+	return bb[startIx:]
+}
 
 func main() {
 	fmt.Print("Type your password: ")
@@ -17,5 +24,6 @@ func main() {
 	if err != nil {
 		log.Fatalln("ERROR", err)
 	}
-	qrterminal.Generate(string(passb), qr.H, os.Stdout)
+	str := string(trimEscaped(passb))
+	qrterminal.Generate(str, qr.H, os.Stdout)
 }
